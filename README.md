@@ -1,15 +1,6 @@
 # Example Health - Node.js Database Adapter for Cloudant
 
-1. Set `CLOUDANT_URL` to Cloudant connection details.
+This application serves as a backend for the [Example Health application](https://github.com/ajp-io/patient-ui). It intitializes a Cloudant database with patient data, and it serves that data to the example health front end app.
 
-    ```
-    export CLOUDANT_URL=https://username:pass.cloudantnosqldb.cloud
-    ```
-    or create `credentials.json` in the root directory:
-    ```
-    {
-        "url": "https://username:pass.cloudantnosqldb.cloud"
-    }
-    ```
-
-1. Run `npm start`.
+## Get Started
+This application is used in the Introduction to Containers, Kubernetes, and OpenShift, available on [Cognitive Class](https://cognitiveclass.ai/courses/kubernetes-course), [Coursera](https://www.coursera.org/learn/getting-started-with-kubernetes-openshift), and [edX](https://courses.edx.org/courses/course-v1:IBM+CC0201EN+3T2020/course/).
